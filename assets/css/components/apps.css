@@ -23,7 +23,7 @@
   background: var(--cont);
 }
 
-.nav__item--apps {
+.nav__item--apps.ativo {
   position: absolute;
   width: 20rem;
   height: 70%;
