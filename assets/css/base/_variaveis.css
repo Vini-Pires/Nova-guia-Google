@@ -1,0 +1,10 @@
+:root {
+  --color-default: red;
+  --bg: #2c2c2c;
+  --cont: #eee;
+  --comp: #212121;
+
+  --font-size-title: 3rem;
+  --round-size: 2rem;
+  --container: 65%;
+}
