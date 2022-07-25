@@ -1,0 +1,13 @@
+.nav__lista {
+  justify-content: flex-end;
+  padding: 1rem 2rem;
+  gap: calc(var(--round-size)/2);
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.nav__link {
+  color: var(--cont);
+}
