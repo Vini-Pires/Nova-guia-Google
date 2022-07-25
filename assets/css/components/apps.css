@@ -1,0 +1,36 @@
+.shadow {
+  height: var(--round-size);
+  width: var(--round-size);
+  border-radius: 50%;
+}
+
+.shadow:hover {
+  background: var(--comp);
+  cursor: pointer;
+}
+
+.container {
+  background: transparent;
+  height: var(--container);
+  width: var(--container);
+  gap: 3%;
+}
+
+.dot {
+  height: 24%;
+  width: 24%;
+  border-radius: 50%;
+  background: var(--cont);
+}
+
+.nav__item--apps {
+  position: absolute;
+  width: 20rem;
+  height: 70%;
+  background: var(--cont);
+  top: 3.5rem;
+  right: 1rem;
+  border-radius: 12px;
+
+  transition: all .2s;
+}
