@@ -1,0 +1,17 @@
+html {
+  background: var(--bg);
+  text-transform: capitalize;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--centro {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex--wrap {
+  flex-flow: wrap;
+}
