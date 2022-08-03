@@ -15,3 +15,7 @@ html {
 .flex--wrap {
   flex-flow: wrap;
 }
+
+.flex--coluna {
+  flex-direction: column;
+}
