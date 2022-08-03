@@ -16,6 +16,10 @@
   gap: 3%;
 }
 
+.shadow.ativo {
+  background: var(--comp);
+}
+
 .dot {
   height: 24%;
   width: 24%;

@@ -1,0 +1,6 @@
+.logo {
+  font-size: var(--font-size-title);
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: var(--cont);
+}
