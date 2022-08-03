@@ -12,6 +12,13 @@
   <link rel="stylesheet" href="./assets/css/components/cabecalho.css">
   <link rel="stylesheet" href="./assets/css/components/apps.css">
   <link rel="stylesheet" href="./assets/css/components/usuario.css">
+  <link rel="stylesheet" href="./assets/css/components/input.css">
+  <link rel="stylesheet" href="./assets/css/components/atalho.css">
+  <link rel="stylesheet" href="./assets/css/components/logo.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="cabecalho">
@@ -36,26 +43,40 @@
               <div class="dot"></div>
               <div class="dot"></div>
             </div>
-          </div>
-          <div class="nav__item--apps flex flex--centro flex--wrap ativo">
+          </div> <!-- Add class 'ativo' -->
+          <div class="nav__item--apps flex flex--centro flex--wrap" data-apps> <!-- Add class 'ativo' -->
             <!-- <a href="#" class="app__link">Teste</a>
-            <a href="#" class="app__link">Teste</a>
-            <a href="#" class="app__link">Teste</a>
-            <a href="#" class="app__link">Teste</a>
-            <a href="#" class="app__link">Teste</a>
-            <a href="#" class="app__link">Teste</a>
-            <a href="#" class="app__link">Teste</a>
-            <a href="#" class="app__link">Teste</a>
-            <a href="#" class="app__link">Teste</a> -->
-          </div>
-        </li>
-        <li class="nav__item">
-          <div class="user--shadow flex flex--centro">
-            <div class="user"></div>
-          </div>
-        </li>
-      </ul>
-    </nav>
-  </header>
-</body>
-</html>
+              <a href="#" class="app__link">Teste</a>
+              <a href="#" class="app__link">Teste</a>
+              <a href="#" class="app__link">Teste</a>
+              <a href="#" class="app__link">Teste</a>
+              <a href="#" class="app__link">Teste</a>
+              <a href="#" class="app__link">Teste</a>
+              <a href="#" class="app__link">Teste</a>
+              <a href="#" class="app__link">Teste</a> -->
+            </div>
+          </li>
+          <li class="nav__item">
+            <div class="user--shadow flex flex--centro">
+              <div class="user"></div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="chamada flex flex--centro flex--coluna">
+      <h1 class="chamada__logo logo">google</h1>
+      <div class="chamada__pesquisa flex flex--coluna">
+        <label for="pesquisa" class="pesquisa__texto">pesquise pelas tendências</label>
+        <input type="text" id="pesquisa" value="pesquisa" class="pesquisa__input">
+      </div>
+      <div class="chamada__atalho flex flex--centro flex--coluna">
+        <div class="atalho__add">
+          <div class="plus-sign --vertical"></div>
+          <div class="plus-sign --horizontal"></div>
+        </div>
+        <p class="atalho__texto"></p>
+      </div>
+    </main>
+  </body>
+  </html>
